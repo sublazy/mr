@@ -7,3 +7,4 @@ gc       = vcsh vimrc gc
 
 [$HOME/.config/vcsh/repo.d/vundle.git]
 checkout = mkdir -p ~/.vim/bundle; VCSH_BASE=~/.vim/bundle/Vundle.vim vcsh clone https://github.com/gmarik/Vundle.vim vundle
+update   = vcsh vundle pull

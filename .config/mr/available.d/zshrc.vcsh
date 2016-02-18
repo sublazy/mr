@@ -4,3 +4,7 @@ update   = vcsh zshrc pull
 push     = vcsh zshrc push
 status   = vcsh zshrc status
 gc       = vcsh zshrc gc
+
+[$HOME/.config/vcsh/repo.d/oh-my-zsh.git]
+checkout = VCSH_BASE=~/.oh-my-zsh vcsh clone https://github.com/robbyrussell/oh-my-zsh.git oh-my-zsh
+update   = vcsh oh-my-zsh pull
