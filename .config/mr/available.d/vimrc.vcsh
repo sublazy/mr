@@ -1,0 +1,9 @@
+[$HOME/.config/vcsh/repo.d/vimrc.git]
+checkout = vcsh clone git://github.com/sublazy/vimrc.git vimrc
+update   = vcsh vimrc pull
+push     = vcsh vimrc push
+status   = vcsh vimrc status
+gc       = vcsh vimrc gc
+
+[$HOME/.config/vcsh/repo.d/vundle.git]
+checkout = mkdir -p ~/.vim/bundle; VCSH_BASE=~/.vim/bundle/Vundle.vim vcsh clone https://github.com/gmarik/Vundle.vim vundle

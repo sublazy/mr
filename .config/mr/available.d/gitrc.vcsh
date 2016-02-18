@@ -1,0 +1,6 @@
+[$HOME/.config/vcsh/repo.d/gitrc.git]
+checkout = vcsh clone git://github.com/sublazy/gitrc.git gitrc
+update   = vcsh gitrc pull
+push     = vcsh gitrc push
+status   = vcsh gitrc status
+gc       = vcsh gitrc gc
