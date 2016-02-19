@@ -3,11 +3,12 @@
 !/.config/mr
 !/.config/mr/available.d
 !/.config/mr/available.d/mr.vcsh
+!/.config/mr/available.d/etc.vcsh
 !/.config/mr/available.d/gitrc.vcsh
 !/.config/mr/available.d/vimrc.vcsh
 !/.config/mr/available.d/zshrc.vcsh
 !/.config/mr/config.d
 !/.config/mr/config.d/mr.vcsh
-!/.mrconfig
 !/.gitignore.d
 !/.gitignore.d/mr
+!/.mrconfig
