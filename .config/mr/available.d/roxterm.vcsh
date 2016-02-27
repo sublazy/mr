@@ -1,0 +1,6 @@
+[$HOME/.config/vcsh/repo.d/roxterm.git]
+checkout = vcsh clone git://github.com/sublazy/roxtermrc.git roxterm
+update   = vcsh roxterm pull
+push     = vcsh roxterm push
+status   = vcsh roxterm status
+gc       = vcsh roxterm gc
