@@ -5,6 +5,7 @@
 !/.config/mr/available.d/etc.vcsh
 !/.config/mr/available.d/gitrc.vcsh
 !/.config/mr/available.d/mr.vcsh
+!/.config/mr/available.d/ranger.vcsh
 !/.config/mr/available.d/roxterm.vcsh
 !/.config/mr/available.d/vimrc.vcsh
 !/.config/mr/available.d/zshrc.vcsh
