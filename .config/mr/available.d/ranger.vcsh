@@ -1,5 +1,5 @@
 [$HOME/.config/vcsh/repo.d/ranger.git]
-checkout = vcsh clone git://github.com/sublazy/rangerrc.git ranger
+checkout = vcsh clone https://github.com/sublazy/rangerrc.git ranger
 update   = vcsh ranger pull
 push     = vcsh ranger push origin master
 status   = vcsh ranger status

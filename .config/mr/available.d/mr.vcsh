@@ -1,5 +1,5 @@
 [$HOME/.config/vcsh/repo.d/mr.git]
-checkout = vcsh clone git://github.com/sublazy/mr.git mr
+checkout = vcsh clone https://github.com/sublazy/mr.git mr
 update   = vcsh mr pull
 push     = vcsh mr push
 status   = vcsh mr status

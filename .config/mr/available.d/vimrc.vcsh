@@ -1,5 +1,5 @@
 [$HOME/.config/vcsh/repo.d/vimrc.git]
-checkout = vcsh clone git://github.com/sublazy/vimrc.git vimrc
+checkout = vcsh clone https://github.com/sublazy/vimrc.git vimrc
 update   = vcsh vimrc pull
 push     = vcsh vimrc push
 status   = vcsh vimrc status

@@ -1,5 +1,5 @@
 [$HOME/.config/vcsh/repo.d/zshrc.git]
-checkout = vcsh clone git://github.com/sublazy/zshrc.git zshrc
+checkout = vcsh clone https://github.com/sublazy/zshrc.git zshrc
 update   = vcsh zshrc pull
 push     = vcsh zshrc push
 status   = vcsh zshrc status

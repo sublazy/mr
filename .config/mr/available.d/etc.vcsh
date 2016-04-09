@@ -1,5 +1,5 @@
 [$HOME/.config/vcsh/repo.d/etc.git]
-checkout = vcsh clone git://github.com/sublazy/etc.git etc
+checkout = vcsh clone https://github.com/sublazy/etc.git etc
 update   = vcsh etc pull
 push     = vcsh etc push
 status   = vcsh etc status
