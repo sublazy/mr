@@ -1,0 +1,7 @@
+[$HOME/.config/vcsh/repo.d/emacsrc.git]
+checkout = VCSH_BASE=$HOME/.emacs.d/private vcsh clone https://github.com/sublazy/emacsrc.git emacsrc
+update   = vcsh emacsrc pull
+push     = vcsh emacsrc remote set-url origin git@github.com:sublazy/emacsrc.git
+           vcsh emacsrc push
+status   = vcsh emacsrc status
+gc       = vcsh emacsrc gc
