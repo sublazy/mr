@@ -1,6 +1,7 @@
 [$HOME/.config/vcsh/repo.d/mr.git]
 checkout = vcsh clone https://github.com/sublazy/mr.git mr
 update   = vcsh mr pull
-push     = vcsh mr push
+push     = vcsh mr remote set-url origin git@github.com:sublazy/mr.git
+           vcsh mr push
 status   = vcsh mr status
 gc       = vcsh mr gc

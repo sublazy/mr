@@ -1,7 +1,8 @@
 [$HOME/.config/vcsh/repo.d/vimrc.git]
 checkout = vcsh clone https://github.com/sublazy/vimrc.git vimrc
 update   = vcsh vimrc pull
-push     = vcsh vimrc push
+push     = vcsh vimrc remote set-url origin git@github.com:sublazy/vimrc.git
+           vcsh vimrc push
 status   = vcsh vimrc status
 gc       = vcsh vimrc gc
 

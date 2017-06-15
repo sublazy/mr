@@ -1,6 +1,7 @@
 [$HOME/.config/vcsh/repo.d/gitrc.git]
 checkout = vcsh clone https://github.com/sublazy/gitrc.git gitrc
 update   = vcsh gitrc pull
-push     = vcsh gitrc push
+push     = vcsh gitrc remote set-url origin git@github.com:sublazy/gitrc.git
+           vcsh gitrc push
 status   = vcsh gitrc status
 gc       = vcsh gitrc gc

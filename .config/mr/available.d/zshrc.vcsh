@@ -1,6 +1,8 @@
 [$HOME/.config/vcsh/repo.d/zshrc.git]
 checkout = vcsh clone https://github.com/sublazy/zshrc.git zshrc
 update   = vcsh zshrc pull
+push     = vcsh zshrc remote set-url origin git@github.com:sublazy/zshrc.git
+           vcsh zshrc push
 push     = vcsh zshrc push
 status   = vcsh zshrc status
 gc       = vcsh zshrc gc
