@@ -1,0 +1,12 @@
+[$HOME/.config/vcsh/repo.d/nvimrc.git]
+checkout = vcsh clone https://github.com/sublazy/nvimrc.git nvimrc
+update   = vcsh nvimrc pull
+push     = vcsh nvimrc remote set-url origin git@github.com:sublazy/vimrc.git
+           vcsh nvimrc push
+status   = vcsh nvimrc status
+gc       = vcsh nvimrc gc
+
+[$HOME/.config/vcsh/repo.d/vundle.git]
+checkout = mkdir -p ~/.vim/bundle; VCSH_BASE=~/.vim/bundle/Vundle.vim vcsh clone https://github.com/gmarik/Vundle.vim vundle
+update   = vcsh vundle pull
+push     = echo "No pushing here"
