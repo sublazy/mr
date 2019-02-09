@@ -2,6 +2,8 @@
 checkout = vcsh clone https://github.com/sublazy/mr.git mr
 update   = vcsh mr pull
 push     = vcsh mr remote set-url origin git@github.com:sublazy/mr.git
+           vcsh mr remote set-url srht git@git.sr.ht:~nutfan/mr
+           vcsh mr push srht
            vcsh mr push
 status   = vcsh mr status
 gc       = vcsh mr gc

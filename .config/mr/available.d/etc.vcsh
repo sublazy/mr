@@ -2,6 +2,7 @@
 checkout = vcsh clone https://github.com/sublazy/etc.git etc
 update   = vcsh etc pull
 push     = vcsh etc remote set-url origin git@github.com:sublazy/etc.git
-           vcsh etc push
+           vcsh etc remote set-url srht git@git.sr.ht:~nutfan/etc
+           vcsh etc push srht
 status   = vcsh etc status
 gc       = vcsh etc gc

@@ -2,7 +2,8 @@
 checkout = vcsh clone https://github.com/sublazy/nvimrc.git nvimrc
 update   = vcsh nvimrc pull
 push     = vcsh nvimrc remote set-url origin git@github.com:sublazy/nvimrc.git
-           vcsh nvimrc push
+           vcsh nvimrc remote set-url srht git@git.sr.ht:~nutfan/nvimrc
+           vcsh nvimrc push srht
 status   = vcsh nvimrc status
 gc       = vcsh nvimrc gc
 
