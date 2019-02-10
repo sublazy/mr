@@ -6,3 +6,4 @@ push     = vcsh ranger remote set-url origin git@github.com:sublazy/rangerrc.git
            vcsh ranger push srht
 status   = vcsh ranger status
 gc       = vcsh ranger gc
+srht     = vcsh ranger remote add srht git@git.sr.ht:~nutfan/ranger

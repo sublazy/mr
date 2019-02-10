@@ -6,6 +6,7 @@ push     = vcsh nvimrc remote set-url origin git@github.com:sublazy/nvimrc.git
            vcsh nvimrc push srht
 status   = vcsh nvimrc status
 gc       = vcsh nvimrc gc
+srht     = vcsh nvimrc remote add srht git@git.sr.ht:~nutfan/nvimrc
 
 [$HOME/.config/vcsh/repo.d/vundle.git]
 checkout = mkdir -p ~/.vim/bundle; VCSH_BASE=~/.vim/bundle/Vundle.vim vcsh clone https://github.com/gmarik/Vundle.vim vundle

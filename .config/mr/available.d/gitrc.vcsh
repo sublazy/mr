@@ -6,3 +6,4 @@ push     = vcsh gitrc remote set-url origin git@github.com:sublazy/gitrc.git
            vcsh gitrc push srht
 status   = vcsh gitrc status
 gc       = vcsh gitrc gc
+srht     = vcsh gitrc remote add srht git@git.sr.ht:~nutfan/gitrc

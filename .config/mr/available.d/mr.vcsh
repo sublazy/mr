@@ -7,3 +7,4 @@ push     = vcsh mr remote set-url origin git@github.com:sublazy/mr.git
            vcsh mr push
 status   = vcsh mr status
 gc       = vcsh mr gc
+srht     = vcsh mr remote add srht git@git.sr.ht:~nutfan/mr

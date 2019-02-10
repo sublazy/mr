@@ -6,3 +6,4 @@ push     = vcsh zshrc remote set-url origin git@github.com:sublazy/zshrc.git
            vcsh zshrc push srht
 status   = vcsh zshrc status
 gc       = vcsh zshrc gc
+srht     = vcsh zshrc remote add srht git@git.sr.ht:~nutfan/zshrc
